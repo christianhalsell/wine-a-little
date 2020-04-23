@@ -5,6 +5,13 @@ const HomePage = () => (
   <div className="homepage">
     <div className="banner">
       Banner
+      <div className="logo">
+        Logo
+      </div>
+
+      <nav className="navigation">
+        Nav
+      </nav>
     </div>
 
     <div className="homepage-content">
@@ -37,7 +44,9 @@ const HomePage = () => (
     </div>
 
     <footer className="footer">
-      footer
+      <div className="footer-content">
+        footer
+      </div>
     </footer>
   </div>
 )

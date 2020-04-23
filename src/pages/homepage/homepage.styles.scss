@@ -1,0 +1,51 @@
+// colors
+
+// measurements
+$page-width: 960px;
+$gutter: 20px;
+
+.homepage {
+  .banner {
+    height: 450px;
+    background-color: lavender;
+  }
+
+  .homepage-content {
+    margin: -60px auto 0;
+    width: $page-width;
+
+    .homepage-callouts {
+      display: grid;
+      grid-gap: $gutter;
+      grid-template-columns: repeat(3, 1fr);
+      margin-bottom: $gutter;
+
+      .homepage-callout {
+        background-color: cyan;
+        height: 200px;
+      }
+    }
+
+    .homepage-deals {
+      display: grid;
+      grid-gap: $gutter;
+      grid-template-columns: repeat(4, 1fr);
+      margin-bottom: $gutter;
+
+      .homepage-deal {
+        background-color: lime;
+        height: 300px;
+      }
+    }
+  }
+
+  .footer {
+    background-color: yellow;
+
+    .footer-content {
+      height: 250px;
+      margin: 0 auto;
+      width: $page-width;
+    }
+  }
+}
