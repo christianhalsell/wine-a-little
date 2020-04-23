@@ -4,14 +4,15 @@ import './homepage.styles.scss';
 const HomePage = () => (
   <div className="homepage">
     <div className="banner">
-      Banner
-      <div className="logo">
-        Logo
-      </div>
+      <div className="banner-content">
+        <div className="logo">
+          Logo
+        </div>
 
-      <nav className="navigation">
-        Nav
-      </nav>
+        <nav className="navigation">
+          Nav
+        </nav>
+      </div>
     </div>
 
     <div className="homepage-content">
