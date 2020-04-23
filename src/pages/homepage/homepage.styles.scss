@@ -10,8 +10,20 @@ $gutter: 20px;
     background-color: lavender;
 
     .banner-content {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
       width: $page-width;
       margin: 0 auto;
+      padding-top: $gutter;
+
+      .logo {
+        background-color: blue;
+      }
+
+      .navigation {
+        background-color: green;
+        text-align: right;
+      }
     }
   }
 
