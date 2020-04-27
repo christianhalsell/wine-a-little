@@ -1,6 +1,10 @@
 import React from 'react';
 import './homepage.styles.scss';
 
+import RedBottle from './images/redwine-cropped.png';
+import WhiteBottle from './images/whitewine-cropped.png';
+import ChampagneBottle from './images/champagne-cropped.png';
+
 const HomePage = () => (
   <div className="homepage">
     <div className="banner">
@@ -18,13 +22,27 @@ const HomePage = () => (
     <div className="homepage-content">
       <div className="homepage-callouts">
         <div className="homepage-callout">
-          left
+          <img className="callout-image" src={RedBottle} alt="red wine bottle" />
+          <h2>Red Wine</h2>
+          <div className="callout-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Praesent a nisi justo. Pellentesque nec efficitur odio.</div>
+          <div className="callout-link">View All</div>
         </div>
+
         <div className="homepage-callout">
-          center
+          <img className="callout-image" src={WhiteBottle} alt="white wine bottle" />
+          <h2>White Wine</h2>
+          <div className="callout-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Praesent a nisi justo. Pellentesque nec efficitur odio.</div>
+          <div className="callout-link">View All</div>
         </div>
+
         <div className="homepage-callout">
-          right
+          <img className="callout-image" src={ChampagneBottle} alt="champagne bottle" />
+          <h2>Champagne</h2>
+          <div className="callout-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Praesent a nisi justo. Pellentesque nec efficitur odio.</div>
+          <div className="callout-link">View All</div>
         </div>
       </div>
 

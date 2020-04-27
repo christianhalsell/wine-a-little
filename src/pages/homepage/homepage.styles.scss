@@ -1,45 +1,88 @@
 // colors
+$dark-gray: #2b2e31;
+$light-gray: #dadada;
+$off-white: #fefefe;
+$light-burgundy: #B62A46;
 
 // measurements
 $page-width: 960px;
 $gutter: 20px;
 
+// headers
+h2 {
+  margin: 0;
+  margin-bottom: 12px;
+  font-size: 24px;
+}
+
 .homepage {
   .banner {
     height: 450px;
-    background-color: lavender;
+    background: url(./images/banner.png) no-repeat center top;
+    background-size: cover;
 
     .banner-content {
       display: grid;
+      color: #fff;
       grid-template-columns: 1fr 2fr;
       width: $page-width;
       margin: 0 auto;
-      padding-top: $gutter;
+      padding-top: $gutter / 2;
 
       .logo {
-        background-color: blue;
+        
       }
 
       .navigation {
-        background-color: green;
         text-align: right;
       }
     }
   }
 
   .homepage-content {
-    margin: -60px auto 0;
-    width: $page-width;
+    background-image: linear-gradient($light-gray, $off-white);
 
     .homepage-callouts {
       display: grid;
       grid-gap: $gutter;
       grid-template-columns: repeat(3, 1fr);
-      margin-bottom: $gutter;
+      margin: 0 auto $gutter;
+      width: $page-width;
 
       .homepage-callout {
-        background-color: cyan;
+        background-color: $dark-gray;
+        padding: $gutter;
+        color: $off-white;
         height: 200px;
+        margin-top: -60px;
+        padding-left: 100px;
+        position: relative;
+
+        .callout-image {
+          position: absolute;
+          bottom: 0;
+          left: 20px;
+        }
+
+        h2 {
+          font-size: 24px;
+          margin: 0;
+          margin-bottom: 12px;
+          text-transform: uppercase;
+        }
+
+        .callout-text {
+          font-size: 14px;
+          line-height: 1.3em;
+          margin-bottom: 10px;
+        }
+
+        .callout-link {
+          font-size: 16px;
+          text-align: right;
+          text-transform: uppercase;
+          color: $light-burgundy;
+        }
       }
     }
 
@@ -47,7 +90,8 @@ $gutter: 20px;
       display: grid;
       grid-gap: $gutter;
       grid-template-columns: repeat(4, 1fr);
-      margin-bottom: $gutter;
+      margin: 0 auto $gutter;
+      width: $page-width;
 
       .homepage-deal {
         background-color: lime;
