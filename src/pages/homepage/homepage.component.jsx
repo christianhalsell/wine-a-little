@@ -1,9 +1,9 @@
 import React from 'react';
 import './homepage.styles.scss';
 
-import RedBottle from './images/redwine-cropped.png';
-import WhiteBottle from './images/whitewine-cropped.png';
-import ChampagneBottle from './images/champagne-cropped.png';
+import RedBottle from './images/redwine-cropped@2x.png';
+import WhiteBottle from './images/whitewine-cropped@2x.png';
+import ChampagneBottle from './images/champagne-cropped@2x.png';
 
 const HomePage = () => (
   <div className="homepage">
