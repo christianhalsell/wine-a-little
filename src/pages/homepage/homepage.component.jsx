@@ -5,6 +5,12 @@ import RedBottle from './images/redwine-cropped@2x.png';
 import WhiteBottle from './images/whitewine-cropped@2x.png';
 import ChampagneBottle from './images/champagne-cropped@2x.png';
 
+// TODO: move these images so I don't have to import them
+import DealA from './images/daou-vineyards-pessimist-red-blend-2017@2x.png';
+import DealB from './images/brick-and-mortar-rose-2018@2x.png';
+import DealC from './images/jean-marc-bugaud-morgon-les-charmes-2018@2x.png';
+import DealD from './images/faire-la-fete-cremant-de-limoux-brout-rose@2x.png'
+
 const HomePage = () => (
   <div className="homepage">
     <div className="banner">
@@ -48,16 +54,31 @@ const HomePage = () => (
 
       <div className="homepage-deals">
         <div className="homepage-deal">
-          A
+          <img className="deal-image" src={DealA} alt="" />
+          <div className="deal-text">Daou Vineyards Pessimist Red Blend</div>
+          <div className="deal-price">$19.95</div>
+          <button>Add to Cart</button>
         </div>
+
         <div className="homepage-deal">
-          B
+          <img className="deal-image" src={DealB} alt="" />
+          <div className="deal-text">Brick and Mortar <br />Rose</div>
+          <div className="deal-price">$24.95</div>
+          <button>Add to Cart</button>
         </div>
+
         <div className="homepage-deal">
-          C
+          <img className="deal-image" src={DealC} alt="" />
+          <div className="deal-text">Jean Marc Bugaud Morgon les Charmes 2018</div>
+          <div className="deal-price">$22.95</div>
+          <button>Add to Cart</button>
         </div>
+
         <div className="homepage-deal">
-          D
+          <img className="deal-image" src={DealD} alt="" />
+          <div className="deal-text">Faire la Fete Cremant de Limoux Brout Rose</div>
+          <div className="deal-price">$29.95</div>
+          <button>Add to Cart</button>
         </div>
       </div>
     </div>
