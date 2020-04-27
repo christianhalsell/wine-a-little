@@ -82,12 +82,6 @@ const HomePage = () => (
         </div>
       </div>
     </div>
-
-    <footer className="footer">
-      <div className="footer-content">
-        footer
-      </div>
-    </footer>
   </div>
 )
 
