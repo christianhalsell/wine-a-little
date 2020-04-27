@@ -20,7 +20,9 @@ const HomePage = () => (
         </div>
 
         <nav className="navigation">
-          Nav
+          Shop
+          Contact
+          Sign In
         </nav>
       </div>
     </div>

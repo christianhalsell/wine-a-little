@@ -1,34 +1,37 @@
 // colors
+$dark-burgundy: #7a0a22;
 $dark-gray: #2b2e31;
+$light-burgundy: #B62A46;
 $light-gray: #dadada;
 $off-white: #fefefe;
-$light-burgundy: #B62A46;
-$dark-burgundy: #7a0a22;
 
 // measurements
-$page-width: 960px;
 $gutter: 20px;
 $half-gutter: 12px;
+$page-width: 960px;
 
 .homepage {
   .banner {
-    height: 450px;
     background: url(./images/banner.png) no-repeat center top;
     background-size: cover;
+    height: 450px;
 
     .banner-content {
-      display: grid;
       color: #fff;
+      display: grid;
       grid-template-columns: 1fr 2fr;
-      width: $page-width;
       margin: 0 auto;
       padding-top: $half-gutter;
+      width: $page-width;
+
+      display: none; // TEMPORARY OFF UNTIL NAV IS READY
 
       .logo {
-        display: none;
+        background-color: yellow;
       }
 
       .navigation {
+        background-color: lime;
         text-align: right;
       }
     }
