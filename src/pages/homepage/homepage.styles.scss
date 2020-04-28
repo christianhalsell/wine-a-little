@@ -11,31 +11,31 @@ $half-gutter: 12px;
 $page-width: 960px;
 
 .homepage {
-  .banner {
-    background: url(./images/banner.png) no-repeat center top;
-    background-size: cover;
-    height: 450px;
+  // .banner {
+  //   background: url(./images/banner.png) no-repeat center top;
+  //   background-size: cover;
+  //   height: 450px;
 
-    .banner-content {
-      color: #fff;
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-      margin: 0 auto;
-      padding-top: $half-gutter;
-      width: $page-width;
+  //   .banner-content {
+  //     color: #fff;
+  //     display: grid;
+  //     grid-template-columns: 1fr 2fr;
+  //     margin: 0 auto;
+  //     padding-top: $half-gutter;
+  //     width: $page-width;
 
-      display: none; // TEMPORARY OFF UNTIL NAV IS READY
+  //     display: none; // TEMPORARY OFF UNTIL NAV IS READY
 
-      .logo {
-        background-color: yellow;
-      }
+  //     .logo {
+  //       background-color: yellow;
+  //     }
 
-      .navigation {
-        background-color: lime;
-        text-align: right;
-      }
-    }
-  }
+  //     .navigation {
+  //       background-color: lime;
+  //       text-align: right;
+  //     }
+  //   }
+  // }
 
   .homepage-content {
     background-image: linear-gradient($light-gray, $off-white);
@@ -47,7 +47,7 @@ $page-width: 960px;
       margin: 0 auto $gutter;
       width: $page-width;
 
-      .homepage-callout {
+      .navigation-card {
         background-color: $dark-gray;
         padding: $gutter;
         color: $off-white;
@@ -56,7 +56,7 @@ $page-width: 960px;
         padding-left: 100px;
         position: relative;
 
-        .callout-image {
+        .navigation-card-image {
           position: absolute;
           bottom: 0;
           left: 20px;
@@ -72,13 +72,13 @@ $page-width: 960px;
           text-transform: uppercase;
         }
 
-        .callout-text {
+        .navigation-card-text {
           font-size: 14px;
           line-height: 1.3em;
           margin-bottom: 10px;
         }
 
-        .callout-link {
+        .navigation-card-link {
           cursor: pointer;
           font-size: 16px;
           text-align: right;
@@ -95,23 +95,23 @@ $page-width: 960px;
       margin: 0 auto $gutter;
       width: $page-width;
 
-      .homepage-deal {
+      .product-item {
         background-color: $off-white;
         color: #444444;
         font-size: 14px;
         padding: $gutter;
         text-align: center;
 
-        .deal-image {
+        .product-item-image {
           height: 160px;
           margin-bottom: $half-gutter;
         }
 
-        .deal-text {
+        .product-item-text {
           margin-bottom: $half-gutter;
         }
 
-        .deal-price {
+        .product-item-price {
           color: $dark-burgundy;
           font-size: 24px;
           margin-bottom: $half-gutter;
