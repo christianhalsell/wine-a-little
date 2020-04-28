@@ -8,6 +8,10 @@ import ChampagneBottle from './images/champagne-cropped@2x.png';
 class NavigationCards extends React.Component {
   constructor() {
     super();
+
+    this.state = {
+      navigationCards: []
+    }
   }
 
   render() {
