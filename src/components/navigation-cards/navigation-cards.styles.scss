@@ -1,0 +1,49 @@
+@import '../../utils/variables';
+
+.navigation-cards {
+  display: grid;
+  grid-gap: $gutter;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto $gutter;
+  width: $page-width;
+
+  .navigation-card {
+    background-color: $dark-gray;
+    padding: $gutter;
+    color: $off-white;
+    height: 200px;
+    margin-top: -60px;
+    padding-left: 100px;
+    position: relative;
+
+    .navigation-card-image {
+      position: absolute;
+      bottom: 0;
+      left: 20px;
+      width: 63px;
+      height: 238px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin: 0;
+      margin-bottom: 12px;
+      font-weight: normal;
+      text-transform: uppercase;
+    }
+
+    .navigation-card-text {
+      font-size: 14px;
+      line-height: 1.3em;
+      margin-bottom: 10px;
+    }
+
+    .navigation-card-link {
+      cursor: pointer;
+      font-size: 16px;
+      text-align: right;
+      text-transform: uppercase;
+      color: $light-burgundy;
+    }
+  }
+}
