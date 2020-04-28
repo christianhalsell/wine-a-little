@@ -3,10 +3,6 @@ import './navigation-cards.styles.scss';
 
 import NavigationCard from '../navigation-card/navigation-card.component';
 
-import RedBottle from './images/redwine-cropped@2x.png';
-import WhiteBottle from './images/whitewine-cropped@2x.png';
-import ChampagneBottle from './images/champagne-cropped@2x.png';
-
 class NavigationCards extends React.Component {
   constructor() {
     super();
