@@ -1,0 +1,41 @@
+@import '../../utils/variables';
+
+.product-item {
+  background-color: $off-white;
+  color: #444444;
+  font-size: 14px;
+  padding: $gutter;
+  text-align: center;
+
+  .product-item-image {
+    height: 160px;
+    margin-bottom: $half-gutter;
+  }
+
+  .product-item-text {
+    margin-bottom: $half-gutter;
+  }
+
+  .product-item-price {
+    color: $dark-burgundy;
+    font-size: 24px;
+    margin-bottom: $half-gutter;
+  }
+
+  button {
+    background-color: $dark-gray;
+    border-radius: 6px;
+    border: 0;
+    color: $off-white;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    outline: 0;
+    padding: 6px 20px;
+    text-transform: uppercase;
+
+    &:active {
+      background-color: $light-burgundy;
+    }
+  }
+}
