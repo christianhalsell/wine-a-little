@@ -1,0 +1,50 @@
+@import '../../utils/variables';
+
+.navigation-card {
+  background-color: $dark-gray;
+  padding: $gutter;
+  color: $light-gray;
+  cursor: pointer;
+  height: 200px;
+  margin-top: -60px;
+  padding-left: 100px;
+  position: relative;
+
+  &:hover {
+    color: white;
+
+    .navigation-card-link {
+      color: $light-burgundy-hover;
+    }
+  }
+
+  .navigation-card-image {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    width: 63px;
+    height: 238px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 12px;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+
+  .navigation-card-text {
+    font-size: 14px;
+    line-height: 1.3em;
+    margin-bottom: 10px;
+  }
+
+  .navigation-card-link {
+    color: $light-burgundy;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: right;
+    text-transform: uppercase;
+  }
+}
