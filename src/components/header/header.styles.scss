@@ -1,0 +1,31 @@
+@import '../../utils/variables';
+
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: $page-width;
+  height: 80px;
+
+  .logo {
+    font-family: 'Crimson Text', Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+  }
+
+  .navigation {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+
+    .option {
+      padding: 0 15px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: $dark-burgundy;
+  }
+}

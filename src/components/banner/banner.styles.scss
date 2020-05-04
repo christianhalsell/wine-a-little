@@ -1,27 +1,7 @@
 @import '../../utils/variables';
 
 .banner {
-  background: url(./images/banner.png) no-repeat center top;
+  background: url(./images/banner.png) no-repeat center center;
   background-size: cover;
-  height: 450px;
-
-  .banner-content {
-    color: #fff;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    margin: 0 auto;
-    padding-top: $half-gutter;
-    width: $page-width;
-
-    display: none; // TEMPORARY OFF UNTIL NAV IS READY
-
-    .logo {
-      background-color: yellow;
-    }
-
-    .navigation {
-      background-color: lime;
-      text-align: right;
-    }
-  }
+  height: 375px;
 }
