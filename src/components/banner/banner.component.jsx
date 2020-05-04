@@ -1,12 +1,10 @@
 import React from 'react';
 import './banner.styles.scss';
 
-import Header from '../header/header.component';
-
-const Banner = () => (
-  <div className="banner">
-
-  </div>
-);
+const Banner = ({ bannerNumber }) => {
+  return (
+    <div className={`banner banner${bannerNumber}`}></div>
+  )
+};
 
 export default Banner;

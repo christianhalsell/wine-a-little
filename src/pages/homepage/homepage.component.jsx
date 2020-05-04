@@ -5,7 +5,7 @@ import HomepageContent from '../../components/homepage-content/homepage-content.
 
 const HomePage = () => (
   <div className="homepage">
-    <Banner />
+    <Banner bannerNumber="1" />
     <HomepageContent />
   </div>
 )
