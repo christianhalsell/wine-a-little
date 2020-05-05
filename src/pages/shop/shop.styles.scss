@@ -1,0 +1,27 @@
+@import '../../utils/variables';
+
+.product-items {
+  display: grid;
+  grid-gap: $gutter;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto 50px;
+  width: $page-width;
+}
+
+.shop-content {
+  background-image: linear-gradient($lightest-gray, $off-white);
+  padding-top: 50px;
+
+  .shop-content-center {
+    margin: 0 auto;
+    padding-top: 0;
+    width: $page-width;
+  }
+
+  h2 {
+    color: $dark-burgundy;
+    font-size: 36px;
+    margin: 0 0 $gutter;
+    text-transform: uppercase;;
+  }
+}
