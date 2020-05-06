@@ -24,8 +24,8 @@ class ShopPage extends React.Component {
           <div className="shop-content-center">
             {
               inventory.map(({ id, title, items }) => (
-                <div>
-                  <h2 key={id}>{title}</h2>
+                <div key={id}>
+                  <h2>{title}</h2>
                   <div className="product-items">
                     {
                       items
