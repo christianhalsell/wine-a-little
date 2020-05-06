@@ -1,0 +1,14 @@
+@import '../../utils/variables';
+
+.sign-in-and-sign-up {
+  background-image: linear-gradient($lightest-gray, $off-white);
+  padding-top: 50px;
+
+  .sign-in-and-sign-up-center {
+    background-color: $off-white;
+    margin-top: $gutter;
+    margin: 0 auto;
+    padding: 20px;
+    width: $page-width;
+  }
+}

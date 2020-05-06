@@ -1,16 +1,11 @@
 @import '../../utils/variables';
 
 .banner {
-  // background: url(./images/banner.png) no-repeat center center;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   height: 375px;
 
-  &.banner1 {
-    background-image: url(./images/banner01.png);
-  }
-  &.banner2 {
-    background-image: url(./images/banner02.png);
-  }
+  &.banner1 { background-image: url(./images/banner01.png) }
+  &.banner2 { background-image: url(./images/banner02.png) }
 }

@@ -22,24 +22,24 @@
     margin-bottom: $half-gutter;
   }
 
-  button {
-    background-color: $dark-gray;
-    border-radius: 6px;
-    border: 0;
-    color: $off-white;
-    cursor: pointer;
-    font-size: 13px;
-    font-weight: bold;
-    outline: 0;
-    padding: 6px 20px;
-    text-transform: uppercase;
+//   button {
+//     background-color: $dark-gray;
+//     border-radius: 6px;
+//     border: 0;
+//     color: $off-white;
+//     cursor: pointer;
+//     font-size: 13px;
+//     font-weight: bold;
+//     outline: 0;
+//     padding: 6px 20px;
+//     text-transform: uppercase;
 
-    &:hover {
-      background-color: $light-burgundy;
-    }
+//     &:hover {
+//       background-color: $dark-burgundy;
+//     }
 
-    &:active {
-      background-color: $light-burgundy-hover;
-    }
-  }
+//     &:active {
+//       background-color: $light-burgundy;
+//     }
+//   }
 }
