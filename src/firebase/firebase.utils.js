@@ -12,6 +12,34 @@ const config = {
   appId: "1:1035080099099:web:be450962c00b72a5001fbe"
 };
 
+export const createUserProfileDocument = async (userAuth, additionalData) => {
+  // if user is signed out, return
+  if (!userAuth) return;
+
+  // see if user already exists
+  const userRef = firestore.doc(`users/${userAuth.uid}`);
+  const snapShop = await userRef.get();
+
+  // if user does not exist, add it to the database
+  if (!snapShop.exists) {
+    const { displayName, email } = userAuth;
+    const createdAt = new Date();
+
+    try {
+      await userRef.set({
+        displayName,
+        email,
+        createdAt,
+        ...additionalData
+      })
+    } catch (err) {
+      console.log('Error creating user', err);
+    }
+  }
+
+  return userRef;
+}
+
 firebase.initializeApp(config);
 
 export const auth = firebase.auth();

@@ -13,10 +13,16 @@
   text-transform: uppercase;
 
   &:hover {
-    background-color: $light-burgundy;
-  }
-
-  &:active {
     background-color: $light-burgundy-hover;
   }
+
+  &.google-sign-in {
+    background-color: #4285f4;
+    color: white;
+
+    &:hover {
+      background-color: #357ae8;
+    }
+  }
+  
 }
