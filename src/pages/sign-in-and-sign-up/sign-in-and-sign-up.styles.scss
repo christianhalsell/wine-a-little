@@ -8,6 +8,8 @@
     background-color: $off-white;
     margin-top: $gutter;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
     width: $page-width;
   }
