@@ -20,7 +20,7 @@ class NavigationCards extends React.Component {
           id: 2,
           imageUrl: 'https://www.christianhalsell.com/images/wine-a-little/whitewine-cropped@2x.png',
           linkUrl: 'white-wine',
-          text: 'From lean and crisp to oaky and buttery, white wine comes in an array of styles and is produced in almost every wine region of the world.',
+          text: 'White wine styles range from a simple and refreshing aperitif to a robust accompaniment to a hearty meal.',
           title: 'White Wine'
         },
         {
