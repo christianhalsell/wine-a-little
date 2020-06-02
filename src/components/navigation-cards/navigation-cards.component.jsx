@@ -13,21 +13,21 @@ class NavigationCards extends React.Component {
           id: 1,
           imageUrl: 'https://www.christianhalsell.com/images/wine-a-little/redwine-cropped@2x.png',
           linkUrl: 'red-wine',
-          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a nisi justo. Pellentesque nec efficitur odio.',
+          text: 'Ranging in style from light and full of finesse to bold and structured, red wine is produced in almost every wine region of the world.',
           title: 'Red Wine'
         },
         {
           id: 2,
           imageUrl: 'https://www.christianhalsell.com/images/wine-a-little/whitewine-cropped@2x.png',
           linkUrl: 'white-wine',
-          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a nisi justo. Pellentesque nec efficitur odio.',
+          text: 'From lean and crisp to oaky and buttery, white wine comes in an array of styles and is produced in almost every wine region of the world.',
           title: 'White Wine'
         },
         {
           id: 3,
           imageUrl: 'https://www.christianhalsell.com/images/wine-a-little/champagne-cropped@2x.png',
           linkUrl: 'champagne',
-          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a nisi justo. Pellentesque nec efficitur odio.',
+          text: 'Beloved for its lively bubbles, sparkling wine is the ultimate beverage for any festivity, whether it\'s a major celebration or merrymaking! ',
           title: 'Champagne'
         }
       ]
